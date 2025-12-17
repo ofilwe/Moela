@@ -1,0 +1,159 @@
+.matches-actions {
+  margin-bottom: 30px;
+  text-align: right;
+}
+
+.matches-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.match-card {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.match-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.match-header {
+  background: linear-gradient(135deg, rgba(123, 30, 30, 0.95), rgba(15, 11, 11, 0.95));
+  padding: 20px;
+  text-align: center;
+}
+
+.match-score {
+  color: white;
+}
+
+.score-value {
+  display: block;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.score-label {
+  display: block;
+  font-size: 14px;
+  opacity: 0.9;
+  margin-top: 5px;
+}
+
+.match-content {
+  padding: 24px;
+}
+
+.match-content h3 {
+  color: #333;
+  margin-bottom: 8px;
+  font-size: 24px;
+}
+
+.match-age {
+  color: #666;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.match-location {
+  color: #999;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.match-bio {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.match-hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.hobby-badge {
+  background: #f0f0f0;
+  color: #666;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+}
+
+.match-factors {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.match-factors h4 {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.factors-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.factor-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #555;
+}
+
+.factor-item span:last-child {
+  font-weight: 600;
+  color: var(--brand-primary, #7b1e1e);
+}
+
+.match-actions {
+  padding: 20px 24px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.match-actions .btn {
+  width: 100%;
+}
+
+.no-matches {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.no-matches h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.no-matches p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .matches-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .matches-actions {
+    text-align: center;
+  }
+}
+
