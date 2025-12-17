@@ -11,6 +11,14 @@ export default defineConfig({
         changeOrigin: true
       }
     }
+  },
+  preview: {
+    port: 3000,
+    host: true,
+    allowedHosts: [
+      'moela-dating.onrender.com',
+      '.onrender.com' // Allow all Render subdomains
+    ]
   }
 })
 
