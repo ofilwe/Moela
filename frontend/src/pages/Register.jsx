@@ -41,6 +41,9 @@ const Register = () => {
   return (
     <div className="auth-container">
       <div className="auth-card">
+        <div className="auth-logo">
+          <img src="/logo.png" alt="Moela Logo" />
+        </div>
         <h1>Create Account</h1>
         <p>Join Moela and find your perfect match</p>
         

@@ -29,6 +29,9 @@ const Login = () => {
   return (
     <div className="auth-container">
       <div className="auth-card">
+        <div className="auth-logo">
+          <img src="/logo.png" alt="Moela Logo" />
+        </div>
         <h1>Welcome to Moela Dating App</h1>
         <p>Sign in to your Moela account</p>
         

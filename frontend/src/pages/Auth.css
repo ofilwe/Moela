@@ -17,6 +17,22 @@
   border: 1px solid var(--brand-border, #e9e0db);
 }
 
+.auth-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.auth-logo img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  background: white;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 .auth-card h1 {
   color: var(--brand-primary, #7b1e1e);
   margin-bottom: 10px;
