@@ -29,7 +29,7 @@ const Login = () => {
   return (
     <div className="auth-container">
       <div className="auth-card">
-        <h1>Welcome Back</h1>
+        <h1>Welcome to Moela Dating App</h1>
         <p>Sign in to your Moela account</p>
         
         {error && <div className="error-message">{error}</div>}
